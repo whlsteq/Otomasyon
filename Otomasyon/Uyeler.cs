@@ -31,9 +31,9 @@ namespace Otomasyon
             get { return Eposta; }
             set { Eposta = value; }
         }
-        private int Tcno;
+        private long Tcno;
 
-        public int _Tcno
+        public long _Tcno
         {
             get { return Tcno; }
             set { Tcno = value; }
@@ -45,9 +45,9 @@ namespace Otomasyon
             get { return sifre; }
             set { sifre = value; }
         }
-        private byte yetki;
+        private bool yetki;
 
-        public byte _yetki
+        public bool _yetki
         {
             get { return yetki; }
             set { yetki = value; }
